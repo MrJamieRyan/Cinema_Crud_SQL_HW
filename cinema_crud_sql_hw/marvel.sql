@@ -77,4 +77,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '19:3
 
 -- INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
 
-UPDATE movies SET show_time = ('21:25') WHERE title = 'Iron Man 3';
+
+
+UPDATE movies SET show_time = ('21:25') WHERE id = 7;
+
+SELECT * FROM movies;

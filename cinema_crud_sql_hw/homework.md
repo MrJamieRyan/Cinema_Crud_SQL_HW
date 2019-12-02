@@ -156,7 +156,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 
 9.  The cinema would like to make the Iron Man movies a triple billing. Find out the show time of "Iron Man 2" and set the show time of "Iron Man 3" to start two hours later.
 
-UPDATE movies SET show_time = ('21:25') WHERE title = 'Iron Man 3';
+UPDATE movies SET show_time = ('21:25') WHERE id = 7;
+SELECT * FROM movies;
 
 ## Extension
 
